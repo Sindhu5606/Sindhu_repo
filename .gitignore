@@ -6,3 +6,11 @@
 /Employee/.vs
 /Employee/Employee.API/bin/Debug/net6.0
 /Employee/Employee.API/obj
+/Employee/Employee.Core/bin/Debug/net6.0
+/Employee/Employee.Core/obj
+/Employee/Employee.DataAccess/bin/Debug/net6.0
+/Employee/Employee.DataAccess/obj
+/Employee/EmployeeBusiness/bin/Debug/net6.0
+/Employee/EmployeeBusiness/obj
+/Employee/Employees.Repository/bin/Debug/net6.0
+/Employee/Employees.Repository/obj
