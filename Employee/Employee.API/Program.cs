@@ -9,8 +9,10 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.Configure<ConnectionStringOptions>(builder.Configuration.GetSection(ConnectionStringOptions.ConnectionString));
 
 // Add services to the container.
-var x = AppDomain.CurrentDomain.GetAssemblies().ToArray();
-builder.Services.AddMediatR(x);
+var domain = AppDomain.CurrentDomain;
+domain.Load("Employee.Business");
+var assemblies = domain.GetAssemblies().ToArray();
+builder.Services.AddMediatR(assemblies);
 builder.Services.AddScoped<IEmployeeRepository, EmployeeRepository>();
 builder.Services.AddScoped<IEmployeeDataAccess, EmployeeDataAccess>();
 

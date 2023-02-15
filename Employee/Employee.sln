@@ -7,11 +7,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Employee.API", "Employee.AP
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Employee.Business", "EmployeeBusiness\Employee.Business.csproj", "{DB266FFA-BE6F-40BB-B7D4-ECFB2CB7A20B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Employees.Repository", "Employees.Repository\Employees.Repository.csproj", "{C4BBFAB5-B1CD-4E19-B58D-906B56797780}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Employees.Repository", "Employees.Repository\Employees.Repository.csproj", "{C4BBFAB5-B1CD-4E19-B58D-906B56797780}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Employee.DataAccess", "Employee.DataAccess\Employee.DataAccess.csproj", "{595FEEA9-9833-45BD-920A-DC67CE788D87}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Employee.DataAccess", "Employee.DataAccess\Employee.DataAccess.csproj", "{595FEEA9-9833-45BD-920A-DC67CE788D87}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Employee.Core", "Employee.Core\Employee.Core.csproj", "{E6432F06-8386-402C-8C1F-B3C27FF85954}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Employee.Core", "Employee.Core\Employee.Core.csproj", "{E6432F06-8386-402C-8C1F-B3C27FF85954}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
